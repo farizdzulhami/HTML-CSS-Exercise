@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      height: 3000px;
+      font-family: arial;
+    }
+    .produk{
+      position: relative;
+      display: inline-block;
+    }
+    .produk img{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .promosi{
+      position: absolute;
+      right: 0px;
+      top: 10px;
+      background-color: black;
+      color: white;
+      padding: 8px 12px 8px 12px;
+    }
+    .tombol{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      height: 80px;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .tombol button{
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px 15px 10px 15px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="produk">
+    <img src="/lesson 15/denim.jpg" alt="">
+    <div class="promosi">20% OFF</div>
+    <div class="tombol">
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
